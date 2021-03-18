@@ -6,7 +6,7 @@
 
 ## VON Tails Server
 
-[original software](https://github.com/bcgov/indy-tails-server)
+tails server [original software](https://github.com/bcgov/indy-tails-server)
 
 > This softare is designed to run on linux kernel 3.11 or newer.
 
