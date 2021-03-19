@@ -1,0 +1,22 @@
+{
+	"requiresCompatibilities": [
+		"EC2"
+	],
+	"inferenceAccelerators": [],
+	"containerDefinitions": [
+		{
+			"name": "vsw-tails",
+			"image": "865098096924.dkr.ecr.us-east-2.amazonaws.com/vsw-repo-repository/vsw-tails-repo:latest",
+			"resourceRequirements": null,
+			"essential": true
+		}
+	],
+	"networkMode": "host",
+	"memory": "512",
+	"cpu": "256",
+	"executionRoleArn": "arn:aws:iam::865098096924:role/ecsTaskExecutionRole",
+	"family": "vsw-tails-task-definition",
+	"taskRoleArn": "",
+	"placementConstraints": [],
+	"pidMode": null
+}
