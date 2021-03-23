@@ -10,7 +10,7 @@ services:
   tails-server:
     build:
       context: ..
-      dockerfile: docker/Dockerfile-local.tails-server
+      dockerfile: docker/Dockerfile.tails-server
     ports:
       - 6543:6543
     networks:
@@ -21,9 +21,9 @@ services:
         --port 6543
         --storage-path $STORAGE_PATH
         --log-level $LOG_LEVEL
-  tester:
-    build:
-      context: ..
-      dockerfile: docker/Dockerfile.test
+  #tester:
+  #  build:
+  #    context: ..
+  #    dockerfile: docker/Dockerfile.test
 networks:
   tails-server:
