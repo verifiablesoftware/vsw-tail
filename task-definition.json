@@ -5,8 +5,8 @@
 	"inferenceAccelerators": [],
 	"containerDefinitions": [
 		{
-			"name": "vsw-tails",
-			"image": "865098096924.dkr.ecr.us-east-2.amazonaws.com/vsw-repo-repository/vsw-tails-repo:latest",
+			"name": "docker_tails-server",
+			"image": "865098096924.dkr.ecr.us-east-2.amazonaws.com/vsw-tails-repository/vsw-tails-repo:latest",
 			"resourceRequirements": null,
 			"essential": true
 		}
