@@ -37,6 +37,7 @@ jobs:
           IMAGE_TAG: ${{ github.sha }}
         run: |
           docker/manage-aws build
+          docker image ls
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
           echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:latest"
 
