@@ -44,7 +44,7 @@ exportEnvironment() {
   export GENESIS_URL=${GENESIS_URL:-https://github.com/sovrin-foundation/sovrin/blob/master/sovrin/domain_transactions_builder_genesis}
   export STORAGE_PATH=${STORAGE_PATH:-/tmp/tails-files}
   export LOG_LEVEL=${LOG_LEVEL:-INFO}
-  export TAILS_SERVER_URL=${TAILS_SERVER_URL:-http://3.141.51.96:6543}
+  export TAILS_SERVER_URL=${TAILS_SERVER_URL:-http://vswrepo.com:6543}
 
 }
 
