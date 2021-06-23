@@ -53,6 +53,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: vsw-service-tails
+          service: vsw-tails
           cluster: vsw-cluster
           wait-for-service-stability: true
