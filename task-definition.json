@@ -5,8 +5,8 @@
 	"inferenceAccelerators": [],
 	"containerDefinitions": [
 		{
-			"name": "docker_tails-server",
-			"image": "286853815328.dkr.ecr.us-east-1.amazonaws.com/vsw-tails/docker_tails-server:latest",
+			"name": "tails-aws",
+			"image": "286853815328.dkr.ecr.us-east-1.amazonaws.com/vsw-tails/tails-aws:latest",
 			"resourceRequirements": null,
 			"essential": true
 		}
