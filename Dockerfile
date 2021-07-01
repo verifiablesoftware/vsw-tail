@@ -15,7 +15,7 @@ RUN pip3 install --no-cache-dir -e .
 RUN mkdir /tmp/tails-files
 
 CMD tails-server \
-    --host vswrepo.com \
+    --host 0.0.0.0 \
     --port 6543 \ 
     --storage-path /tmp/tails-files \
     --log-level INFO
